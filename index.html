@@ -12,13 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <style>
-    .fonts{
+    .fonts {
         font-family: "Manrope", serif;
     }
 </style>
+
 <body class="fonts">
-    <main class="max-w-screen-xl mx-auto px-4 ">
-        <header class="py-16">
+    <main class="max-w-screen-xl mx-auto px-4">
+        <header class="py-8 md:py-4 lg:py-20">
             <!-- Banner Container -->
             <div class="md:flex items-center md:justify-between">
                 <!-- Banner Text -->
@@ -26,9 +27,12 @@
                     <h2 class="text-5xl font-bold lg:text-7xl lg:font-extrabold mb-7">It's good <br>
                         tea time at The <br> Tea House
                     </h2>
-                    <p class="text-[#777777] w-3/4 mb-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    <p class="text-[#777777] w-3/4 mb-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+                        To Your Taste Buds.
                     </p>
-                    <button class="text-white font-bold bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg py-3 px-5">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+                    <button
+                        class="text-white font-bold bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg py-3 px-5">Explore
+                        More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
                 </div>
                 <!-- Banner Image -->
                 <div class="mt-8">
@@ -36,7 +40,8 @@
                         <img class="w-full" src="images/banner.png" alt="">
                     </div>
                     <!-- banner badge -->
-                    <div class="flex items-center bg-white p-3 md:absolute md:-mt-24 ml-20 rounded-xl lg:-mt-28 lg:ml-32 ">
+                    <div
+                        class="flex items-center bg-white p-3 md:absolute md:-mt-24 ml-20 rounded-xl lg:-mt-28 lg:ml-32 ">
                         <div><i class="fa-solid fa-star text-3xl text-[#FFC850]"></i></div>
                         <div class="ml-3">
                             <h3 class="text-3xl font-bold">5.00</h3>
@@ -47,12 +52,48 @@
             </div>
         </header>
         <!-- Featured Product Section -->
-         <section class="py-16">
-            <div class=" text-center">
+        <section class="md:py-16 md:mx-8">
+            <div class=" text-center md:mb-5">
                 <h2 class="text-5xl font-bold">Our Featured Products</h2>
-                <p class="font-medium text-[#777777] mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p class="font-medium text-[#777777] mt-5 my-5
+                md:my-10 md:max-w-2xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
-         </section>
+
+            <!-- Card Container -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5 text-center">
+
+                <!-- Cards -->
+                <div class="bg-gray-100 rounded-xl overflow-hidden">
+                    <img class="mx-auto py-5" src="images/tea-1.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-3xl font-bold mb-4">Milk Tea</h3>
+                        <p class="text-gray-500 mb-4">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-xl overflow-hidden">
+                    <img class="mx-auto py-5" src="images/tea-2.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-3xl font-bold mb-4">Milk Tea</h3>
+                        <p class="text-gray-500 mb-4">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-xl overflow-hidden">
+                    <img class="mx-auto py-5" src="images/tea-3.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-3xl font-bold mb-4">Black Tea</h3>
+                        <p class="text-gray-500 mb-4">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-xl overflow-hidden">
+                    <img class="mx-auto py-5" src="images/tea-4.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-3xl font-bold mb-4">Coffee Tea</h3>
+                        <p class="text-gray-500 mb-4">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
 </body>
 
